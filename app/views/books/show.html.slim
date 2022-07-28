@@ -1,0 +1,44 @@
+= render 'shared/banner'
+.container
+  = link_to books_path, class: 'border-brown animated-shadow btn font-weight-bold align-self-start mb-4' do 
+    i.bi.bi-caret-left
+    = t('.back')
+  .row 
+    .col-6.d-flex.justify-content-center
+      = image_tag @book.cover.url(:large)
+    .col-6 
+      p
+        strong = t('.title')
+        =< @book.title
+      p 
+        strong = t('.author')
+        =< @book.author
+      p 
+        strong = t('.description')
+        =< @book.description
+      p 
+        strong = t('.categories')
+        ul
+          - @book.categories.each do |category|
+            li =< category.category_name
+      p 
+        strong = t('.price')
+        =< @book.price
+        =< I18n.t('.usd')
+      p 
+        strong = t('.publishing_house')
+        =< @book.publishing_house
+      p 
+        strong = t('.publishing_date')
+        =< l @book.publishing_date, format: :publishing_date_format
+      p 
+        strong = t('.language')
+        =< @book.language
+      - if current_user.admin?
+        =< link_to edit_book_path(@book), class:"mx-2 btn border-brown animated-shadow", title: t('.edit') do
+          i.bi.bi-pencil-square
+          =< t('.edit')
+      - else 
+        =< button_to add_item_to_cart_path(book_id: @book), class:"mx-2 btn border-brown animated-shadow", method: :post do 
+          i.bi.bi-basket3-fill
+          strong =< t('line_items.create.add_to_cart')

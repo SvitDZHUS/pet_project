@@ -4,3 +4,24 @@ uk:
       user:
         email: "Адреса електронної пошти"
         password: "Пароль"
+      category:
+        category_name: "Назва Категорії"
+      book:
+        title: "Назва"
+        author: "Автор"
+        description: "Опис"
+        price: "Ціна"
+        publishing_house: "Видавництво"
+        publishing_date: "Дата Видання"
+        cover: "Обкладинка"
+        language: "Мова"
+      profile:
+        first_name: "Ім'я"
+        last_name: "Прізвище"
+        phone: "Номер Телефону"
+        birthday: "День Народження"
+      line_item:
+        price: "Ціна"
+      order:
+        first_name: "Ім'я"
+        last_name: "Прізвище"

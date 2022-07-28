@@ -1,0 +1,6 @@
+en:
+  carts:
+    empty_title: "Your Cart Is Empty"
+    order_title: "Ready to Buy?"
+    total_price: "Total Price"
+    create_order: "Create Order"

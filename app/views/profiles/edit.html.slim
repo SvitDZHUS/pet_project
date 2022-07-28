@@ -1,0 +1,17 @@
+= render 'shared/banner'
+.container.d-flex.justify-content-center
+  .col-6.d-flex.flex-column.align-items-stretch
+    = link_to profile_path, class: 'border-brown animated-shadow btn font-weight-bold align-self-start mb-4' do 
+      i.bi.bi-caret-left
+      = t('.back')
+    h1 = t('profiles.edit.title')
+    = simple_form_for(@profile) do |f|
+      .field.mb-4
+        = f.input :first_name, placeholder: t('profiles.form.first_name_placeholder')
+      .field.mb-4
+        = f.input :last_name, placeholder: t('profiles.form.last_name_placeholder')
+      .field.mb-4
+        = f.input :phone, placeholder: t('profiles.form.phone_placeholder')
+      .field.mb-4
+        = f.input :birthday, start_year: Date.today.year - 110, end_year: Date.today.year, placeholder: t('profiles.form.birthday_placeholder')
+      = f.submit t('global.forms.submit'), class:"btn border-brown animated-shadow font-weight-bold w-100"

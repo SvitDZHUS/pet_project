@@ -1,0 +1,35 @@
+en:
+  usd: "USD"
+  books:
+    title: "Books"
+    index:
+      new_category: "New Book"
+    show:
+      title: "Title:"
+      author: "Author:"
+      description: "Description:"
+      categories: "Categories:"
+      price: "Price:"
+      publishing_house: "Publishing House:"
+      publishing_date: "Publishing Date:"
+      language: "Language:"
+      back: "Back"
+      edit: "Edit"
+    new:
+      title: "New Book"
+      back: "Back"
+    edit:
+      title: "Edit Book"
+      back: "Back"
+    controller:
+      create: "Category was successfully created"
+      update: "Category was successfully updated"
+      destroy: "Category was successfully deleted"
+    form:
+      categories: "Categories"
+      title_placeholder: "Write book's title"
+      author_placeholder: "Write author's full name or pseudonym"
+      description_placeholder: "Write book's description"
+      price_placeholder: "Write book's price, USD"
+      publishing_house_placeholder: "Write book's publishing house"
+      language_placeholder: "Write book's language"

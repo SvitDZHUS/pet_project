@@ -1,0 +1,17 @@
+uk:
+  categories:
+    title: "Категорії"
+    index:
+      new_category: "Нова Категорія"
+    new:
+      title: "Нова Категорія"
+      back: "Назад"
+    edit:
+      title: "Редагувати Категорію"
+      back: "Назад"
+    controller:
+      create: "Категорію успішно створено"
+      update: "Категорію успішно оновлено"
+      destroy: "Категорію успішно видалено"
+    form:
+      category_name_placeholder: "Введіть назву категорії"

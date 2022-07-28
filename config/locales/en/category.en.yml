@@ -1,0 +1,17 @@
+en:
+  categories:
+    title: "Categories"
+    index:
+      new_category: "New Category"
+    new:
+      title: "New Category"
+      back: "Back"
+    edit:
+      title: "Edit Category"
+      back: "Back"
+    controller:
+      create: "Category was successfully created"
+      update: "Category was successfully updated"
+      destroy: "Category was successfully deleted"
+    form:
+      category_name_placeholder: "Write name of category"

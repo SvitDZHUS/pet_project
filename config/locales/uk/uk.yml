@@ -3,11 +3,26 @@ uk:
     en_switch: "EN"
     uk_switch: "UK"
     translate: "BOOKER.ka тепер українською!"
+    access: "Ви не маєте доступу до цієї сторінки!"
+    forms:
+      submit: "Зберегти"
+      confirm: "Ви впевнені?"
   header:
     sign_in: "Увійти"
     sign_up: "Зареєструватись"
     sign_out: "Вийти"
+  sidebar:
+    admin_logo: "BOOKER.ka | ADMIN"
+    member_logo: "BOOKER.ka | MEMBER"
+    profile: "Профіль"
+    categories: "Категорії"
+    books: "Книги"
+    cart: "Кошик"
+    shelf: "Полиця"
   welcome_pages:
     welcome: 
       title: "Вітаємо у BOOKER.ka"
       subtitle: "Шукайте книги, купуйте книги, читайте книги. Усе в одному місці!"
+  date:
+    formats:
+      publishing_date_format: "%d %B %Y"

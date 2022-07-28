@@ -1,0 +1,23 @@
+= render 'shared/banner'
+.container.d-flex.justify-content-center
+  .col-6.d-flex.flex-column.align-items-stretch
+    - if @profile.first_name
+      p
+        strong = t('.first_name')
+        =< @profile.first_name
+      p 
+        strong = t('.last_name')
+        =< @profile.last_name
+      p 
+        strong = t('.phone')
+        =< @profile.phone
+      p 
+        strong = t('.birthday')
+        =< @profile.birthday
+      =< link_to edit_profile_path(@profile), class:"mx-2 btn border-brown animated-shadow", title: t('.edit') do
+        i.bi.bi-pencil-square
+        =< t('.edit')
+    - else 
+      =< link_to edit_profile_path(@profile), class:"mx-2 btn border-brown animated-shadow", title: t('.edit') do
+        i.bi.bi-pencil-square
+        strong =< t('.fill_in_profile')

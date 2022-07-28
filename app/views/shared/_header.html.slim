@@ -1,6 +1,4 @@
-header.navbar.border-bottom-brown
-  .nav-link 
-    = link_to 'BOOKER.ka', welcome_path, class: "btn border-brown animated-shadow font-weight-bold mx-2" 
+header.navbar.border-bottom-brown.justify-content-end
   ul.nav.d-flex.align-items-center
     - if user_signed_in?
       li.nav-item = button_to t('header.sign_out'), destroy_user_session_path, method: :delete, class: "btn border-brown animated-shadow font-weight-bold mx-2" 

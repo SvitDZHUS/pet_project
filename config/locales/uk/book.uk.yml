@@ -1,0 +1,35 @@
+uk:
+  usd: "дол. США"
+  books:
+    title: "Книжки"
+    index:
+      new_book: "Нова Книга"
+    show:
+      title: "Назва:"
+      author: "Автор:"
+      description: "Опис:"
+      categories: "Категорії:"
+      price: "Ціна:"
+      publishing_house: "Видавництво:"
+      publishing_date: "Дата Видання:"
+      language: "Мова:"
+      back: "Назад"
+      edit: "Редагувати"
+    new:
+      title: "Нова Книга"
+      back: "Назад"
+    edit:
+      title: "Редагувати Книгу"
+      back: "Назад"
+    controller:
+      create: "Книгу успішно створено"
+      update: "Книгу успішно оновлено"
+      destroy: "Книгу успішно видалено"
+    form:
+      categories: "Категорії"
+      title_placeholder: "Введіть назву книги"
+      author_placeholder: "Введіть ім'я або псевдонім автора"
+      description_placeholder: "Введіть опис книги"
+      price_placeholder: "Введіть ціну книги, грн"
+      publishing_house_placeholder: "Введіть назву видавництва книги"
+      language_placeholder: "Введіть мову написання книги"

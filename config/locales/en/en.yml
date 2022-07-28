@@ -3,11 +3,26 @@ en:
     en_switch: "EN"
     uk_switch: "UK"
     translate: "BOOKER.ka is now in English!"
+    access: "You do not have access to this page!"
+    forms:
+      submit: "Submit"
+      confirm: "Are you sure?"
   header:
     sign_in: "Sign In"
     sign_up: "Sign Up"
     sign_out: "Sign Out"
+  sidebar:
+    admin_logo: "BOOKER.ka | ADMIN"
+    member_logo: "BOOKER.ka | MEMBER"
+    profile: "Profile"
+    categories: "Categories"
+    books: "Books"
+    cart: "Cart"
+    shelf: "Shelf"
   welcome_pages:
     welcome: 
       title: "Welcome to BOOKER.ka"
       subtitle: "Find books, buy books, manage books. Everything in one place!"
+  date:
+    formats:
+      publishing_date_format: "%d %b %Y"

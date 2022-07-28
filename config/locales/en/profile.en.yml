@@ -1,0 +1,19 @@
+en:
+  profiles:
+    show:
+      first_name: "First Name:"
+      last_name: "Last Name:"
+      phone: "Phone:"
+      birthday: "Birthday:"
+      edit: "Edit"
+      fill_in_profile: "Fill in your profile"
+    edit:
+      title: "Edit Profile"
+      back: "Back"
+    controller:
+      update: "Profile was successfully updated"
+    form:
+      first_name_placeholder: "Write your first name"
+      last_name_placeholder: "Write your last name"
+      phone_placeholder: "Write your phone"
+      birthday_placeholder: "Write your birthday"

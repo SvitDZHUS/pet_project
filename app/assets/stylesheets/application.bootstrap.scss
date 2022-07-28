@@ -1,13 +1,40 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+html, body {
+  height: 100%;
+}
+
+a, a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
 .hero {
-  background-color: #f1e4da;
+  background: url('hero.png');
   padding: 5em 0;
 }
 
 .brown {
   background-color: #4a321c;
+}
+
+.light-brown {
+  background-color: #f8efe5;
+}
+
+.white {
+  background-color:hsla(0, 0%, 100%, 0.85); 
 }
 
 .border-brown {
@@ -18,8 +45,16 @@
   border-bottom: 5px solid #4a321c;
 }
 
+.border-top-brown {
+  border-top: 5px solid #4a321c;
+}
+
 .border-left-brown {
   border-left: 5px solid #4a321c;
+}
+
+.border-right-brown {
+  border-right: 5px solid #4a321c;
 }
 
 .animated-shadow {
@@ -39,4 +74,45 @@
 
 .btn, .alert {
   border-radius: 0;
+}
+
+.form-control, .form-check-input {
+  border: 1px solid #4a321c;
+  border-radius: 0;
+}
+
+.navbar-vertical {
+  align-items: stretch;
+  flex-direction: column;
+  min-height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-50 {
+  width: 25%;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.dropup > .dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu.show {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
 }
